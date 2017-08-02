@@ -1,7 +1,13 @@
-// swift-tools-version:3.1
-
+// swift-tools-version:4.0
 import PackageDescription
 
 let package = Package(
-    name: "CSourceKit"
+    name: "CSourceKit",
+    products: [
+        .library(name: "CSourceKit", type: .dynamic, targets: ["CSourceKit"]),
+    ],
+    dependencies: [],
+    targets: [
+        .target(name: "CSourceKit"),
+    ]
 )
