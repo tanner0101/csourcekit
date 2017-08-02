@@ -17,8 +17,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-asdf\\\......
-
 /**
  * \brief The version constants for the sourcekitd API.
  * SOURCEKITD_VERSION_MINOR should increase when there are API additions.
